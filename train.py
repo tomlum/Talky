@@ -98,3 +98,4 @@ for iteration in range(1, epochs):
         "-SK" + str(skip) +
         "-A" + str(age) +
         ".h5")
+print()

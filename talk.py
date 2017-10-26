@@ -5,8 +5,8 @@ import random
 import sys
 import codecs
 
-corpus = "speare.txt"
-fileName = "speare-V1-HL128-BS128-A1.h5"
+corpus = "speare-short.txt"
+fileName = "speare-short.txt-V1-HL128-LR0.001-BS128-LB20-SK3-A1.h5"
 genLength = 500
 diversity = .5
 
@@ -77,3 +77,4 @@ for i in range(genLength):
 
     sys.stdout.write(next_char)
     sys.stdout.flush()
+print()
