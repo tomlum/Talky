@@ -17,6 +17,8 @@ To have it talk, run
 
 `pipenv run python talk.py <corpus.txt> <age of saved network> <number of characters to generate (default: 100)> <variability (default: .5)>`
 
+Note: The indicator `...A<age>.h5` at the end of save files indicates the age of the save.
+
 # Tweaking Parameters
 To tweak the parameters of the network, check out params.py.
 
