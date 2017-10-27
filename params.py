@@ -1,6 +1,3 @@
-corpus = "speare-short.txt"
-
-version = 1
 # How many epochs its run through
 age = 1
 hiddenLayers = 128
