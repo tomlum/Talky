@@ -16,3 +16,8 @@ This will generate a keras network save file for each epoch under the `saves` di
 To have it talk, run
 
 `pipenv run python talk.py <corpus.txt> <age of saved network> <number of characters to generate (default: 100)> <variability (default: .5)>`
+
+# Tweaking Parameters
+To tweak the parameters of the network, check out params.py.
+
+Note: this will create and load separate save files
