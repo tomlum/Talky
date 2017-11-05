@@ -2,7 +2,7 @@
 A character based RNN text generator, inspired by Lucashu1
 
 # Installation
-First install [pipenv](https://pypi.python.org/pypi/pipenv), then
+First install [pipenv](https://pypi.python.org/pypi/pipenv), then run
 
 `pipenv install`
 
